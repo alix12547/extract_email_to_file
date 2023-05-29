@@ -16,8 +16,10 @@ if email_provider.lower() == "1":
 elif email_provider.lower() == "2":
     # Connect to the IMAP server (Yahoo)
     imap_server = imaplib.IMAP4_SSL("imap.mail.yahoo.com")
-    username = "achrafelabouye@yahoo.com"
-    password = "wtwdebznrypcudga"
+    # username = "achrafelabouye@yahoo.com"
+    # password = "wtwdebznrypcudga"
+    username = "achrafel73114@yahoo.com"
+    password = "caxqwlxwviydurui"
 
 elif email_provider.lower() == "3":
     # Connect to the IMAP server (Gmail)
